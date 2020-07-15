@@ -6,7 +6,7 @@ Ubuntu 18.04
 Docker 19.03.12  
 nvidia-docker 2.4.0  
 ### Packages inside Dockerfile
-Ubuntu 18.04
+Ubuntu 18.04  
 cuda 10.2  
 cudnn 7.6.5  
 Python 3.6.9  
