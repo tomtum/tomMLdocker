@@ -5,7 +5,7 @@ Dockerfile for machine learning on Ubuntu 18.04
 Ubuntu 18.04  
 Docker 19.03.12  
 nvidia-docker 2.4.0  
-### Packages inside Dockerfile
+### What you'll get
 Ubuntu 18.04  
 cuda 10.2  
 cudnn 7.6.5  
@@ -24,7 +24,8 @@ https://github.com/NVIDIA/nvidia-docker/wiki/Frequently-Asked-Questions#how-do-i
 https://docs.docker.com/engine/install/ubuntu/
 
 3. Install nvidia-docker  
-https://github.com/NVIDIA/nvidia-docker
+https://github.com/NVIDIA/nvidia-docker  
+
 
 
 Tested on Ubuntu 18.04 with RTX 2070 Super 
