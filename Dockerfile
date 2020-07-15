@@ -74,8 +74,6 @@ doxygen && \
 apt-get clean && \
 apt-get autoremove && \
 rm -rf /var/lib/apt/lists/*
-# rm -rf /var/lib/apt/lists/* && \
-# update-alternatives --set libblas.so.3 /usr/lib/openblas-base/libblas.so.3
 
 # Install latest CMake
 RUN apt-get update && apt-get install apt-transport-https ca-certificates gnupg software-properties-common -y && \
