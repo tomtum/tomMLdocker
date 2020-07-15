@@ -20,7 +20,7 @@ https://github.com/NVIDIA/nvidia-docker/wiki/Frequently-Asked-Questions#how-do-i
 2. Install Docker  
 https://docs.docker.com/engine/install/ubuntu/
 
-3. Install nvidia-docker
+3. Install nvidia-docker  
 https://github.com/NVIDIA/nvidia-docker
 
 Tested on Ubuntu 18.04 with RTX 2070 Super 
