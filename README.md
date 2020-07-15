@@ -1,5 +1,5 @@
 # tomMLdocker
-Dockerfile for machine learning on Ubuntu 18.04 with nvidia-docker
+Dockerfile for machine learning on Ubuntu 18.04
 
 Ubuntu 18.04  
 Docker 19.03.12  
