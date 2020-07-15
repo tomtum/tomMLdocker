@@ -3,6 +3,7 @@ Dockerfile for machine learning on Ubuntu 18.04 with nvidia-docker
 
 Ubuntu 18.04  
 Docker 19.03.12  
+Nvidia-docker 2.4.0
 cuda 10.2  
 cudnn 7.6.5  
 Python 3.6.9  
