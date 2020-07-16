@@ -158,7 +158,8 @@ RUN pip3 install opencv-contrib-python
 # Expose Ports for TensorBoard (6006), Ipython (8888)
 EXPOSE 6006 8888
 
-RUN export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/cuda/extras/CUPTI/lib64
+ENV LD_LIBRARY_PATH="/usr/local/cuda/extras/CUPTI/lib64:${LD_LIBRARY_PATH}"
+
 RUN sudo ln -s /usr/local/cuda-10.2/targets/x86_64-linux/lib/libcudart.so.10.2 /usr/lib/x86_64-linux-gnu/libcudart.so.10.1 && \
 /bin/bash -c "source ~/.bashrc"
 
